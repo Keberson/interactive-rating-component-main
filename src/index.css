@@ -44,3 +44,11 @@ body {
   color: hsl(0, 0%, 100%);
   border-radius: 20px;
 }
+
+@media screen and (max-width: 376px) {
+  .wrapper {
+    box-sizing: border-box;
+    width: 327px;
+    height: 360px;
+  }
+}

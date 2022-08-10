@@ -2,6 +2,12 @@
     padding: 30px;
 }
 
+@media screen and (max-width: 376px) {
+    .rating {
+        padding: 30px 24px;
+    }
+}
+
 .rating_logo {
     width: fit-content;
     padding: 15px;
@@ -21,10 +27,22 @@
     color: hsl(0, 0%, 100%);
 }
 
+@media screen and (max-width: 376px) {
+    .rating_title {
+        font-size: 24px;
+    }
+}
+
 .rating_subtitle {
     font-size: 15px;
     font-weight: 400;
     color: hsl(217, 12%, 63%);
+}
+
+@media screen and (max-width: 376px) {
+    .rating_subtitle {
+        font-size: 12px;
+    }
 }
 
 .rating_buttons {
@@ -46,6 +64,13 @@
     background-color: hsl(213, 19%, 18%);
 }
 
+@media screen and (max-width: 376px) {
+    .rating_buttons button {
+        width: 42px;
+        height: 42px;
+    }
+}
+
 .rating_buttons button:hover {
     color: hsl(0, 0%, 100%);
     background-color: hsl(25, 97%, 53%);
@@ -58,6 +83,13 @@
     font-weight: 700;
     color: hsl(0, 0%, 100%);
     background-color: hsl(25, 97%, 53%);
+}
+
+@media screen and (max-width: 376px) {
+    .rating_submit {
+        padding: 12px 0;
+        font-size: 12px;
+    }
 }
 
 .rating_submit:hover {

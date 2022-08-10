@@ -1,6 +1,12 @@
 .thanks {
-    padding: 50px 30px;
+    padding: 50px 35px;
     align-items: center;
+}
+
+@media screen and (max-width: 376px) {
+    .thanks {
+        padding: 35px;
+    }
 }
 
 .thanks_img {
@@ -14,6 +20,13 @@
     background-color: hsl(213, 19%, 18%);
     border-radius: 16px;
     font-weight: 400;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 376px) {
+    .thanks_rating {
+        font-size: 12px;
+    }
 }
 
 .thanks_text {
@@ -24,9 +37,25 @@
 }
 
 .thanks_title {
+    font-weight: 700;
+    font-size: 30px;
+    color: hsl(0, 0%, 100%);
+}
 
+@media screen and (max-width: 376px) {
+    .thanks_title {
+        font-size: 24px;
+    }
 }
 
 .thanks_subtitle {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+}
 
+@media screen and (max-width: 376px) {
+    .thanks_subtitle {
+        font-size: 12px;
+    }
 }
