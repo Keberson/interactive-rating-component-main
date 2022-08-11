@@ -38,7 +38,7 @@ Desktop (1440px) version:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/Keberson/interactive-rating-component-main)
-- Live Site URL: [Netlify](https://interactive-rating-component-main-keberson.netlify.app/)
+- Live Site URL: [Vercel](https://interactive-rating-component-main-one.vercel.app/)
 
 ## My process
 
@@ -55,6 +55,7 @@ Desktop (1440px) version:
 
 To run this app use:
 
+```npm install```
 ```npm start```
 
 ## Author
